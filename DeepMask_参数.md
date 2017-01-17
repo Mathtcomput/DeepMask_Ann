@@ -14,7 +14,7 @@
 ![](http://i.imgur.com/xcXm05z.png)（参数 -np 9 -si 0.5 -sf 0.8 -ss 0.1）(用的是deepmask 前面用的sharpmask)
 
 ## 测试的例子 ##
-![](http://i.imgur.com/TXzx9kJ.png)
+![](http://i.imgur.com/TXzx9kJ.png)（原图）
 ![](http://i.imgur.com/gMuM83Q.png)（默认参数）
 
 ![](http://i.imgur.com/86sSOIu.png)（**deepmask result** -np 7 -si -1 -sf 0.5 -ss 0.1）
