@@ -33,7 +33,7 @@
  
 
 ### 具体数据处理 ###	
-	input patch如果被称为一个标准正样本，则Object正位于patch 中心，并且尺寸为128（此时patch为224*224，即 ObjectSize = patchSize*128/224）
+input patch如果被称为一个标准正样本，则Object正位于patch 中心，并且尺寸为128（此时patch为224*224，即 ObjectSize = patchSize*128/224）
 	
  - 正样本构造：拿到标准正样本之后，我们来构造正样本，即对inputpatch和ground truth mask 进行一定程度的偏移和尺度的缩放（shift <= 16pixels,scale = 2^.25）,即经过这种处理之后，其 标签 y = 1.
  - 负样本构造：shift >= 32 pixels,scale > 2^(+-)1，经过这种处理过后 y = -1.
