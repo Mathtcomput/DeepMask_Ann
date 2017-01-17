@@ -38,9 +38,9 @@ DeepMask用来产生region proposal.
 
 - Head Architecture (同样出于效率的考虑)
   DeepMask的两个分支（mask and score prediction）都需要一个大的卷积，并且在inference阶段，因为score branch 需要额外的一个pooling step，因此需要有额外的处理来match segmentation branch.因此对其进行了优化。
-![](http://i.imgur.com/waL7guI.png)
 
-    （a）为原始DeepMask，最后改进后的模型是(d)head C.
+      ![](http://i.imgur.com/waL7guI.png)
+      （a）为原始DeepMask，最后改进后的模型是(d)head C.
 ## DeepMask Code ##
 
 ![](http://i.imgur.com/lzrxZdU.png)
