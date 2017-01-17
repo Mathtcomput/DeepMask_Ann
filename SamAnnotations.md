@@ -31,6 +31,7 @@
  - (2) Object完全在patch中，并且尺寸在一定范围
 ![](http://i.imgur.com/wZqcE9M.png)
  
+
 ### 具体数据处理 ###	
 	input patch如果被称为一个标准正样本，则Object正位于patch 中心，并且尺寸为128（此时patch为224*224，即 ObjectSize = patchSize*128/224）
 	
